@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: all 0.2s ease 0s;
+}
